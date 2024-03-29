@@ -17,5 +17,27 @@ body {
 #mc_embed_signup {
   background: #fff;
   font: 14px;
-  width: 300px;
+  max-width: 400px;
+}
+
+.mandala {
+  width: 200px;
+  height: auto;
+}
+
+.download-section {
+  margin: 30px;
+}
+
+.download {
+  color: #000;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.download:hover {
+  color: #fff;
+  background-color: #000;
 }
