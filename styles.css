@@ -26,7 +26,11 @@ body {
 }
 
 .download-section {
-  margin: 30px;
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .download {
@@ -40,4 +44,9 @@ body {
 .download:hover {
   color: #fff;
   background-color: #000;
+}
+
+.sc-player {
+  max-width: 600px;
+  width: 100%;
 }
