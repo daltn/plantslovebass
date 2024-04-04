@@ -12,6 +12,7 @@ body {
   width: 100%;
   max-width: 300px;
   height: auto;
+  margin: 10px 0;
 }
 
 #mc_embed_signup {
@@ -26,7 +27,7 @@ body {
 }
 
 .download-section {
-  margin: 20px auto;
+  margin: 10px 0 20px;
   width: 100%;
   display: flex;
   justify-content: center;
