@@ -12,7 +12,7 @@ body {
   width: 100%;
   max-width: 300px;
   height: auto;
-  margin: 10px 0;
+  margin: 10px 0 0;
 }
 
 #mc_embed_signup {
@@ -48,6 +48,7 @@ body {
 }
 
 .sc-player {
-  max-width: 600px;
+  max-width: 540px;
   width: 100%;
+  margin-bottom: 20px;
 }
