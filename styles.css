@@ -118,6 +118,34 @@ h1 {
   background-color: #000;
 }
 
+body > p {
+  max-width: 400px;
+  width: 80%;
+}
+
+.tickets {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #0b00f1;
+  text-decoration: none;
+  padding: 16px 40px;
+  border: 2px solid #0b00f1;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.tickets:hover {
+  color: #fff;
+  background-color: #0b00f1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
 .sc-player {
   max-width: 540px;
   width: 100%;
